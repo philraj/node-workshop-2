@@ -21,5 +21,13 @@ lastChar( "JavaScript", function (char) {
 
 
 function getFirstAndLast (string, cont) {
-    
+    firstChar(string, function(char1) {
+        lastChar(string, function(char2) {
+            cont(char1 + char2);
+        });
+    });
 }
+
+getFirstAndLast ('JavaScript', function(string) {
+    console.log(string);
+})
