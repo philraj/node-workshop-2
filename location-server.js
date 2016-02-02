@@ -1,6 +1,5 @@
 var http = require("http");
 var request = require("request");
-var fortune = require("./library/fortune");
 
 var APIkey = "AIzaSyCt5Aq18XSSCYAoIm-BunsbMK_E46rJ5U8";
 

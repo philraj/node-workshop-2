@@ -1,5 +1,4 @@
 var http = require("http");
-var request = require("request");
 
 var listener = function (req, response) {
     response.end("Hello world! Request URL: " + req.url.substring(1));
