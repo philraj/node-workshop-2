@@ -8,3 +8,5 @@ var fortunes = [
 function getFortune () {
     return fortunes[ Math.floor(Math.random() * fortunes.length)]
 }
+
+module.exports = { getFortune: getFortune }
